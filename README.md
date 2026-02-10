@@ -5,7 +5,8 @@
 </a>
 
 <h3 align="center">
-  This project has been created by NodeJs and ExpressJS <br><br> <a href='https://faker-api-service.onrender.com/api/user'>Demo</a>
+  NodeJs and ExpressJS <br><br> 
+  <a href='https://faker-api-service.onrender.com/api/user'>Demo</a>
 </h3>
 <br>
 
@@ -19,24 +20,49 @@
 
 ###
 
-<h2 align="left">How to use it ?</h2>
+<h2 align="left">How to use it?</h2>
 
+> First step:
+
+Install all package dependencies from NPM
+```bash
+npm install
+```
+
+> Second step:
+
+After installing packages, then create ".env" file in root of the project and add these variables
+```bash
+APP_PORT = 3000
+```
+
+> Third step:
+
+Launch web server for using as service!
+```bash
+npm start
+```
 ###
 
-<p align="left">1️⃣ npm install<br>2️⃣ create .env file + adding variables<br>3️⃣ npm start<br>4️⃣ use it with routing system like "/api/{dynamic-route}" + "Request Methods"</p>
+<h2 align="left">API End-points + HTTP methods</h2>
 
 ###
-###
-###
+> Get random fake a User data
+```txt
+[GET] /api/user
+```
 
-<h2 align="left">API End Points + Methods</h2>
+> Get random fake Git data
+```txt
+[GET] /api/git
+```
 
-###
+> Get random fake Http-request data
+```txt
+[GET] /api/request
+```
 
-<p align="left">🔗 { GET } -- "/api/user" -- { Get random fake user-data }<br><br>🔗 { GET } -- "/api/git" --  { Get random fake git-data }<br><br>🔗 { GET } -- "/api/request"  --  { Get random fake request-data }<br><br>🔗 { GET } -- "/api/finance-account" --  { Get random fake finance-account data }  <br><br>
-
-###
-
-<hr>
-<p align='center'>If you like this project, I'll be happy for starring the project 😍</p>
-<p align='center'>Thanks for watching 🙏❤️</p>
+> Get random fake Finance-account data
+```txt
+[GET] /api/finance-account
+```
