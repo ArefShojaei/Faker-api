@@ -31,7 +31,7 @@ npm install
 
 > Second step:
 
-After installing packages, then create ".env" file in root of the project and add these variables
+After installing packages, then create ".env" file in root of the project and puts this variable in the file 
 ```bash
 APP_PORT = 3000
 ```
